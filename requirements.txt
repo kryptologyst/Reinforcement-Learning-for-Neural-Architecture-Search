@@ -1,0 +1,35 @@
+# Core ML/RL libraries
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+gymnasium>=0.29.0
+stable-baselines3>=2.0.0
+ray[rllib]>=2.7.0
+
+# Data processing and visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pandas>=2.0.0
+plotly>=5.15.0
+
+# Configuration and utilities
+pyyaml>=6.0
+tqdm>=4.65.0
+wandb>=0.15.0
+tensorboard>=2.13.0
+
+# Development and testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.7.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Optional: Jupyter and Streamlit for UI
+jupyter>=1.0.0
+streamlit>=1.25.0
+ipywidgets>=8.0.0
+
+# Additional RL utilities
+sb3-contrib>=2.0.0
+optuna>=3.3.0
